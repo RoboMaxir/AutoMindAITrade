@@ -1,0 +1,114 @@
+{
+  "created_at": "2025-11-26T22:26:59.894685",
+  "data_sources": {},
+  "symbols": {
+    "BTC/USDT": {
+      "market_type": "crypto",
+      "parquet_path": "professional_dataset/crypto/BTC_USDT_20251126.parquet",
+      "csv_path": "professional_dataset/crypto/BTC_USDT_20251126.csv",
+      "file_size_mb": 0.07,
+      "candle_count": 1500,
+      "time_range": {
+        "start": "2024-10-14T12:00:00",
+        "end": "2025-06-21T08:00:00"
+      },
+      "quality": {
+        "completeness": 1.0,
+        "consistency": 1.0,
+        "freshness": 0.0,
+        "total_candles": 1500,
+        "time_range": "2024-10-14 12:00:00 to 2025-06-21 08:00:00"
+      }
+    },
+    "ETH/USDT": {
+      "market_type": "crypto",
+      "parquet_path": "professional_dataset/crypto/ETH_USDT_20251126.parquet",
+      "csv_path": "professional_dataset/crypto/ETH_USDT_20251126.csv",
+      "file_size_mb": 0.07,
+      "candle_count": 1500,
+      "time_range": {
+        "start": "2024-10-14T12:00:00",
+        "end": "2025-06-21T08:00:00"
+      },
+      "quality": {
+        "completeness": 1.0,
+        "consistency": 1.0,
+        "freshness": 0.0,
+        "total_candles": 1500,
+        "time_range": "2024-10-14 12:00:00 to 2025-06-21 08:00:00"
+      }
+    },
+    "AAPL": {
+      "market_type": "stocks",
+      "parquet_path": "professional_dataset/stocks/AAPL_20251126.parquet",
+      "csv_path": "professional_dataset/stocks/AAPL_20251126.csv",
+      "file_size_mb": 0.13,
+      "candle_count": 2514,
+      "time_range": {
+        "start": "2015-11-30T00:00:00",
+        "end": "2025-11-26T00:00:00"
+      },
+      "quality": {
+        "completeness": 1.0,
+        "consistency": 0.0,
+        "freshness": 0.06428897039351844,
+        "total_candles": 2514,
+        "time_range": "2015-11-30 00:00:00 to 2025-11-26 00:00:00"
+      }
+    },
+    "TSLA": {
+      "market_type": "stocks",
+      "parquet_path": "professional_dataset/stocks/TSLA_20251126.parquet",
+      "csv_path": "professional_dataset/stocks/TSLA_20251126.csv",
+      "file_size_mb": 0.11,
+      "candle_count": 2514,
+      "time_range": {
+        "start": "2015-11-30T00:00:00",
+        "end": "2025-11-26T00:00:00"
+      },
+      "quality": {
+        "completeness": 1.0,
+        "consistency": 0.0,
+        "freshness": 0.06424479906250014,
+        "total_candles": 2514,
+        "time_range": "2015-11-30 00:00:00 to 2025-11-26 00:00:00"
+      }
+    }
+  },
+  "quality_metrics": {
+    "BTC/USDT": {
+      "completeness": 1.0,
+      "consistency": 1.0,
+      "freshness": 0.0,
+      "total_candles": 1500,
+      "time_range": "2024-10-14 12:00:00 to 2025-06-21 08:00:00"
+    },
+    "ETH/USDT": {
+      "completeness": 1.0,
+      "consistency": 1.0,
+      "freshness": 0.0,
+      "total_candles": 1500,
+      "time_range": "2024-10-14 12:00:00 to 2025-06-21 08:00:00"
+    },
+    "AAPL": {
+      "completeness": 1.0,
+      "consistency": 0.0,
+      "freshness": 0.06428897039351844,
+      "total_candles": 2514,
+      "time_range": "2015-11-30 00:00:00 to 2025-11-26 00:00:00"
+    },
+    "TSLA": {
+      "completeness": 1.0,
+      "consistency": 0.0,
+      "freshness": 0.06424479906250014,
+      "total_candles": 2514,
+      "time_range": "2015-11-30 00:00:00 to 2025-11-26 00:00:00"
+    }
+  },
+  "collection_stats": {
+    "total_candles": 8028,
+    "successful_symbols": 4,
+    "failed_symbols": 1,
+    "total_time": 0
+  }
+}
