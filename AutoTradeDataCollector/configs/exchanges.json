@@ -1,0 +1,62 @@
+{
+    "crypto_exchanges": {
+        "binance": {
+            "name": "Binance",
+            "api_url": "https://api.binance.com",
+            "rate_limit": 1000,
+            "enabled": true
+        },
+        "kucoin": {
+            "name": "KuCoin",
+            "api_url": "https://api.kucoin.com",
+            "rate_limit": 1000,
+            "enabled": true
+        },
+        "coinex": {
+            "name": "CoinEx",
+            "api_url": "https://api.coinex.com",
+            "rate_limit": 1000,
+            "enabled": true
+        },
+        "bybit": {
+            "name": "Bybit",
+            "api_url": "https://api.bybit.com",
+            "rate_limit": 1000,
+            "enabled": true
+        },
+        "bitget": {
+            "name": "Bitget",
+            "api_url": "https://api.bitget.com",
+            "rate_limit": 1000,
+            "enabled": true
+        }
+    },
+    "stock_exchanges": {
+        "yahoo": {
+            "name": "Yahoo Finance",
+            "api_url": "https://finance.yahoo.com",
+            "rate_limit": 2000,
+            "enabled": true
+        },
+        "alpha_vantage": {
+            "name": "Alpha Vantage",
+            "api_url": "https://www.alphavantage.co",
+            "rate_limit": 500,
+            "enabled": false
+        }
+    },
+    "forex_exchanges": {
+        "oanda": {
+            "name": "OANDA",
+            "api_url": "https://api-fxpractice.oanda.com",
+            "rate_limit": 500,
+            "enabled": false
+        },
+        "fxcm": {
+            "name": "FXCM",
+            "api_url": "https://fxcm.com",
+            "rate_limit": 1000,
+            "enabled": false
+        }
+    }
+}
