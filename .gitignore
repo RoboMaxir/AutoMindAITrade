@@ -1,57 +1,49 @@
 ```
-# Python
+# Compiled and build artifacts
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
+*.o
+*.obj
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-venv/
-env/
-ENV/
+*.dll
+*.exe
+*.class
+*.out
+
+# Dependencies
 .venv/
-.env/
-pyvenv.cfg
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
 .mypy_cache/
-.hypothesis/
-.coverage
+.pytest_cache/
+coverage/
+htmlcov/
+*.egg-info/
 
-# Docker
-.dockerignore
-Dockerfile
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.~*
 
-# IDE
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
