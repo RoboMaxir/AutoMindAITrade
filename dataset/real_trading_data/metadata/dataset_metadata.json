@@ -1,0 +1,46 @@
+{
+  "created_at": "2025-11-27T00:22:07.085677",
+  "sources": {
+    "BTC/USDT_crypto": {
+      "source": "wallex",
+      "market_type": "crypto",
+      "parquet_path": "real_trading_data/crypto/BTC_USDT_20251127.parquet",
+      "csv_path": "real_trading_data/crypto/BTC_USDT_20251127.csv",
+      "file_size_mb": 0.69,
+      "candle_count": 17514,
+      "time_range": {
+        "start": "2023-11-27T21:00:00",
+        "end": "2025-11-26T20:00:00"
+      }
+    },
+    "ETH/USDT_crypto": {
+      "source": "wallex",
+      "market_type": "crypto",
+      "parquet_path": "real_trading_data/crypto/ETH_USDT_20251127.parquet",
+      "csv_path": "real_trading_data/crypto/ETH_USDT_20251127.csv",
+      "file_size_mb": 0.64,
+      "candle_count": 17514,
+      "time_range": {
+        "start": "2023-11-27T21:00:00",
+        "end": "2025-11-26T20:00:00"
+      }
+    },
+    "SOL/USDT_crypto": {
+      "source": "wallex",
+      "market_type": "crypto",
+      "parquet_path": "real_trading_data/crypto/SOL_USDT_20251127.parquet",
+      "csv_path": "real_trading_data/crypto/SOL_USDT_20251127.csv",
+      "file_size_mb": 0.58,
+      "candle_count": 17514,
+      "time_range": {
+        "start": "2023-11-27T21:00:00",
+        "end": "2025-11-26T20:00:00"
+      }
+    }
+  },
+  "collection_stats": {
+    "successful_symbols": 3,
+    "failed_symbols": 3,
+    "total_candles": 52542
+  }
+}
