@@ -1,0 +1,14 @@
+# Core dependencies for the AI Crypto Trading System
+pandas>=1.5.0
+numpy>=1.21.0
+ccxt>=4.0.0
+requests>=2.28.0
+scikit-learn>=1.1.0
+ta-lib>=0.4.0  # Optional: for technical analysis indicators
+transformers>=4.20.0  # For NLP capabilities
+torch>=1.12.0  # For transformer models
+textblob>=0.17.0  # For basic NLP
+nltk>=3.7  # For NLP preprocessing
+python-dotenv>=0.19.0  # For environment management
+pydantic>=1.9.0  # For data validation
+loguru>=0.6.0  # For advanced logging
