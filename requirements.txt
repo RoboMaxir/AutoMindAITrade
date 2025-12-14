@@ -1,0 +1,23 @@
+# Core dependencies for Professional Crypto Trading Agent
+numpy==1.24.3
+pandas==2.0.3
+requests==2.31.0
+
+# Additional useful packages for trading
+TA-Lib==0.4.28  # Technical analysis library (optional but recommended)
+ccxt==4.2.85   # Cryptocurrency exchange trading library
+python-binance==1.0.19  # Binance exchange API wrapper
+websocket-client==1.6.1
+apscheduler==3.10.4  # Advanced Python Scheduler
+
+# Data visualization (for monitoring)
+matplotlib==3.7.2
+plotly==5.15.0
+
+# Utilities
+python-dotenv==1.0.0
+colorama==0.4.6  # For colored console output
+pytz==2023.3
+
+# Testing and development
+pytest==7.4.0
